@@ -1,20 +1,45 @@
-#signInContainer{
-	height:40rem;
-    padding-top: 10rem;
-    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
-    background-size: contain;
-}
+
+
 
 body{
     background-color: #525252;
 }
 
-.centered-form-style{
-        
+.btn{
+    margin-top: 1rem;
+}
 
-        padding-bottom:1rem;
-    }
+
 @media (max-width: 575.98px) { 
+    #signInContainer{
+    height:45rem;
+    padding-top: 5rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+    background-size: contain;
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.panel-body{
+    margin-top:1.5rem;
+}
+.centered-form-style-extra{
+    
+        margin-top: 1.5rem;
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1rem;
+        border-top-style: solid ;
+
+
+    }
     .centered-form{
         
 
@@ -29,6 +54,36 @@ body{
     } }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    #signInContainer{
+    height:45rem;
+    padding-top: 5rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+    background-size: contain;
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.panel-body{
+    margin-top:1.5rem;
+}
+.centered-form-style-extra{
+    
+        margin-top: 1.5rem;
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1rem;
+        border-top-style: solid ;
+
+
+    }
 
         .centered-form{
         
@@ -46,6 +101,35 @@ body{
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
+    #signInContainer{
+    height:45rem;
+    padding-top: 5rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+    background-size: contain;
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.panel-body{
+    margin-top:1.5rem;
+}
+.centered-form-style-extra{
+    
+        margin-top: 1.5rem;
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1rem;
+        border-top-style: solid ;
+
+
+    }
         .centered-form{
         
 
@@ -60,6 +144,37 @@ body{
      }
 
 @media(min-width: 992px) and (max-width: 1199.98px) { 
+    
+        #signInContainer{
+    height:40rem;
+    padding-top: 5rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+    background-size: contain;
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.panel-body{
+    margin-top:1.5rem;
+}
+
+.centered-form-style-extra{
+    
+        margin-top: 1.5rem;
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1rem;
+        border-top-style: solid ;
+
+
+    }
     .centered-form{
         
 
@@ -74,10 +189,38 @@ body{
 }
 
 @media (min-width: 1200px) { 
+.centered-form-style-extra{
+    
+        margin-top: 1.5rem;
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1rem;
+        border-top-style: solid ;
+
+
+    }
+    #signInContainer{
+    height:45rem;
+    padding-top: 10rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+    background-size: contain;
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.panel-body{
+    margin-top:1.5rem;
+}
 
         .centered-form{
         
-
         background: grey;
         backface-visibility: 20%;
         float:right;
@@ -87,15 +230,10 @@ body{
     }
  }
 
-
-
 /*.centered-form .panel{
-	background: rgba(255, 255, 255, 0.8);
-	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
 }*/
-.remember-me{
-	margin-top:3rem;
-}
 /*
     @hiercelik - hiercelik.net
     @koalapix - koalapix.com
@@ -117,10 +255,4 @@ a:hover {
     opacity: 0.8;
     color:#ff5400;
     text-decoration:none;
-}
-.kpx_authTitle {
-    text-align: center;
-    line-height: 150%;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
 }

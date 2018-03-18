@@ -1,5 +1,5 @@
 #signInSocialContainer{
-	height:50rem;
+  height:60rem;
     padding-top: 10rem;
     background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
 }
@@ -9,18 +9,8 @@
 */
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
-@media (min-width: 768px) {
-    .kpx_row-sm-offset-3 div:first-child[class*="col-"] {
-        margin-left: 5%;
-        width:100%;
-    }
-}
-.kpx_authTitle {
-    text-align: center;
-    line-height: 150%;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
+
+
 body {
     font-family: 'Titillium Web', sans-serif; 
 }
@@ -34,27 +24,39 @@ a:hover {
 }
 @media (max-width: 575.98px) { 
 
+#signInSocialContainer{
+  height:85rem;
+    padding-top: 5rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+}
 .kpx_authTitle {
+  border-bottom-style: solid ;
+  size:2px;
+    margin-right:2rem;
+    margin-left:2rem;
     text-align: center;
-    line-height: 50%;
+    line-height: 120%;
     padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
 }
   .social-tab{
+    margin-top:1.5rem;
   margin-left: 0.005rem;
   margin-right: 0.005rem;
-  margin-bottom:2rem;
   padding-right: 0.005rem;
   padding-left: 0.005rem;
 }
 .kpx_socialButtons{
-  margin-top:4rem;
-  margin:0.5rem;
+  
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  margin-top:0.5rem;
 }
 .fa{
   font-size: 1.5em;
 }
 .kpx_login {
+  opacity:0.97;
     float: left;
     margin-left: 1.5rem;
     background: grey;
@@ -64,11 +66,34 @@ a:hover {
     border-radius: 3rem;
     width:90%;
 }
+.kpx_alt{
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1.5rem;
+        border-top-style: solid ;
+    }
      }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
+#signInSocialContainer{
+    height:50rem;
+    padding-top: 7rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:2rem;
+    margin-left:2rem;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
   .social-tab{
+    margin-top: 2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-bottom:2rem;
@@ -82,6 +107,7 @@ a:hover {
   font-size: 2em;
 }
 .kpx_login {
+  opacity:0.97;
     float: left;
     margin-left: 2rem;
     background: grey;
@@ -90,18 +116,33 @@ a:hover {
     line-height: 300%;
     border-radius: 3rem;
     width:90%;
-}      
+}
+.kpx_alt{
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1.5rem;
+        border-top-style: solid ;
+    }      
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
-
+#signInSocialContainer{
+  height:50rem;
+    padding-top: 8rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+}
 .kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:2rem;
+    margin-left:2rem;
     text-align: center;
     line-height: 150%;
     padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
   .social-tab{
+    margin-top:2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-bottom:2rem;
@@ -115,6 +156,8 @@ a:hover {
   font-size: 1.5em;
 }
 .kpx_login {
+  opacity:0.97;
+    float: right;
     background: grey;
     backface-visibility: 20%;
     text-align: center;
@@ -122,11 +165,31 @@ a:hover {
     border-radius: 3rem;
     width:50%;
 }
+.kpx_alt{
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1.5rem;
+        border-top-style: solid ;
+    }
 
      }
 
 @media(min-width: 992px) and (max-width: 1199.98px) { 
+  #signInSocialContainer{
+  height:57rem;
+    padding-top: 8rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+}
+  .kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:2rem;
+    margin-left:2rem;
+    text-align: center;
+    line-height: 300%;
+}
       .social-tab{
+  margin-top:2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-bottom:2rem;
@@ -137,6 +200,8 @@ a:hover {
   padding-left:4rem;
 }
 .kpx_login {
+  opacity:0.97;
+    float: right;
     background: grey;
     backface-visibility: 20%;
     text-align: center;
@@ -144,11 +209,30 @@ a:hover {
     border-radius: 3rem;
     width:50%;
 }
+.kpx_alt{
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1.5rem;
+        border-top-style: solid ;
+    }
 }
 
 @media (min-width: 1200px) { 
-
+  #signInSocialContainer{
+  height:57rem;
+    padding-top: 8rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+}
+.kpx_authTitle {
+    border-bottom-style: solid ;
+    margin-right:2rem;
+    margin-left:2rem;
+    text-align: center;
+    line-height: 300%;
+}
 .social-tab{
+  margin-top:2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-bottom:2rem;
@@ -159,6 +243,8 @@ a:hover {
   padding-left:5rem
 }
 .kpx_login {
+    float: right;
+    opacity:0.97;
     background: grey;
     backface-visibility: 20%;
     text-align: center;
@@ -166,20 +252,23 @@ a:hover {
     border-radius: 3rem;
     width:50%;
 }
+.kpx_alt{
+        margin-left:1.7rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+        padding-top:1.5rem;
+        border-top-style: solid ;
+    }
  }
 
-.kpx_login .kpx_authTitle {
-    text-align: center;
-    line-height: 300%;
-}
     
 .kpx_login .kpx_socialButtons a {
     color: white; // In yourUse @body-bg 
-	opacity:0.9;
+  opacity:0.9;
 }
 .kpx_login .kpx_socialButtons a:hover {
     color: white;
-	opacity:1;    	
+  opacity:1;      
 }
 
 .kpx_login .kpx_socialButtons .kpx_btn-facebook {background: #3b5998; -webkit-transition: all 0.5s ease-in-out;
@@ -289,42 +378,42 @@ a:hover {
 
 
 .kpx_login .kpx_loginOr {
-	position: relative;
-	font-size: 1.5em;
-	color: #aaa;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+  position: relative;
+  font-size: 1.5em;
+  color: #aaa;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 .kpx_login .kpx_loginOr .kpx_hrOr {
-	background-color: #cdcdcd;
-	height: 1px;
-	margin-top: 0px !important;
-	margin-bottom: 0px !important;
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 .kpx_login .kpx_loginOr .kpx_spanOr {
-	display: block;
-	position: absolute;
-	left: 50%;
-	top: -0.6em;
-	margin-left: -1.5em;
-	background-color: white;
-	width: 3em;
-	text-align: center;
-}			
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -0.6em;
+  margin-left: -1.5em;
+  background-color: white;
+  width: 3em;
+  text-align: center;
+}     
 
 .kpx_login .kpx_loginForm .input-group.i {
-	width: 2em;
+  width: 2em;
 }
 .kpx_login .kpx_loginForm  .help-block {
     color: red;
 }
 
-	
+  
 @media (min-width: 768px) {
     .kpx_login .kpx_forgotPwd {
         text-align: right;
-		margin-top:10px;
- 	}		
+    margin-top:10px;
+  }   
 }
