@@ -1,0 +1,72 @@
+ <div id= background>
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#">Crypto Didi</a>
+
+         <!--==============Button Tag ====================-->
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+<!--   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" [routerLink] = "'dashboard-main'"> {{word.home}}  <span class="sr-only">(current)</span></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" [routerLink] = "'activity'">{{word.activity}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink] = "'opportunity'">{{word.opt}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">{{word.convo}}</a>
+              </li>
+              <li>
+               <input class="form-control mr-sm-2" id="search" type="text" placeholder="Search" aria-label="Search">
+          
+              </li>
+              <li>
+              <button class="btn btn-outline-primary my-2 my-sm-0" id="search" type="submit">Search</button>
+              </li>
+            </ul>
+         <form class="form-inline my-2 my-lg-0">
+         <h4>Joe Smith</h4>
+         <i class="fa fa-sign-out" aria-hidden="true"></i>
+        </form> 
+  </div> 
+
+
+
+
+
+
+[class.active]="router.isRouteActive(router.generate(['/Home']))"
+
+
+
+  -->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto" id = "list">
+              <li class="nav-item" routerLinkActive="active" >
+                <a class="nav-link" [routerLink] = "'signUp'"> Sign Up {{routerLink.url}} <span class="sr-only">(current)</span></a>
+              </li> 
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink] = "'signIn'"> Sign In </a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink] = "'signUpSocial'"> Social Sign Up</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink] = "'signInSocial'"> Social Sign In</a>
+              </li>
+              
+            </ul>
+          
+  </div>
+        </nav>
+
+        <!--=============== Router Outlet ================-->
+        
+        <router-outlet></router-outlet>
+        </div>

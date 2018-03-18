@@ -1,0 +1,46 @@
+
+{
+"dashboard":{
+"logo":"LOGO",
+"home":"Home",
+"activity":"Activity",
+"opt":"Opportunity",
+"convo":"Conversation"
+},
+ "opportunity":{
+"investerName":"Invester Name",
+"presentationName":"Presentation Name",
+"adivisorName":"Advisor Name",
+"lastUpdated":"Last Updated",
+"netWorth":"Net Worth",
+"client":"Client/Prospect",
+"type":"Type",
+"b":"1",
+"c":"2",
+"d":"3",
+"mark":"Mark",
+"ot":"Otto",
+"m":"@mdo",
+"jac":"Jacob",
+"thor":"Thornton",
+"fat":"@fat",
+"lar":"Larry",
+"brd":"the Bird",
+"twit":"@twitter"
+},
+"main":{
+
+"aum":"AUM",
+"qck":"Quick links",
+"crm":"CRM System",
+"on":"OnBoarding",
+"ystem":"ystem",
+"top":"Top Customer",
+"net":"Net Flow Summary"
+},
+"activity":{
+	"description":"Description",
+	"date":"Date",
+	"nextStep":"Next Step"
+}
+}

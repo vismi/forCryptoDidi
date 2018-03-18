@@ -1,0 +1,124 @@
+#signUpContainer{
+    height:40rem;
+    padding-top: 10rem;
+    background: url(https://elevenews.com/wp-content/uploads/2018/02/BiteMyCoin-Cryptocurrency.png);
+    background-size: contain;
+}
+
+
+body{
+    background-color: #525252;
+}
+.centered-form-style{
+        
+
+        padding-bottom:2rem;
+    }
+.btn{
+    margin-top: 1rem;
+}
+@media (max-width: 575.98px) { 
+    .centered-form{
+        
+
+        background: grey;
+        backface-visibility: 20%;
+        margin-left:0.75%;
+        margin-right: 0.75%;
+        width:100%;
+        opacity: 0.985;
+        border-radius: 3rem; 
+
+    } }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+        .centered-form{
+        
+
+        background: grey;
+        backface-visibility: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width:90%;
+        opacity: 0.985;
+        border-radius: 3rem; 
+
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+        .centered-form{
+        
+
+        background: grey;
+        backface-visibility: 20%;
+        float:right;
+        width:45%;
+        opacity: 0.985;
+        border-radius: 3rem; 
+
+    }
+     }
+
+@media(min-width: 992px) and (max-width: 1199.98px) { 
+    .centered-form{
+        
+
+        background: grey;
+        backface-visibility: 20%;
+        float:right;
+        width:37%;
+        opacity: 0.985;
+        border-radius: 3rem; 
+
+    }
+}
+
+@media (min-width: 1200px) { 
+
+        .centered-form{
+        
+
+        background: grey;
+        backface-visibility: 20%;
+        float:right;
+        width:30%;
+        opacity: 0.985;
+        border-radius: 3rem; 
+    }
+ }
+
+/*.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}*/
+/*
+    @hiercelik - hiercelik.net
+    @koalapix - koalapix.com
+*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
+@media (min-width: 768px) {
+    .kpx_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+body {
+    font-family: 'Titillium Web', sans-serif; 
+}
+a{
+    color:#ff5400;
+}
+a:hover {
+    opacity: 0.8;
+    color:#ff5400;
+    text-decoration:none;
+}
+.kpx_authTitle {
+    text-align: center;
+    line-height: 150%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
